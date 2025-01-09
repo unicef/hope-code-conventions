@@ -1,0 +1,19 @@
+[project]
+name = "test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+
+]
+
+[tool.nitpick]
+style = "../../django/django.toml"
+
+[tool.black]
+fake-option = 100
+
+[uv]
+package = true
