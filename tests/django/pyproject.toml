@@ -16,4 +16,4 @@ style = "../../django/django.toml"
 fake-option = 100
 
 [uv]
-package = true
+package = false
