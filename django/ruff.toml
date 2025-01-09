@@ -2,10 +2,10 @@
 # ruff.toml
 #
 ["ruff.toml"]
-target-version = "py312"
+#target-version = "py312"
 line-length = 120
 
-["ruff.toml".isort]
+["ruff.toml".lint.isort]
 case-sensitive = true
 
 ["ruff.toml".lint]
@@ -15,7 +15,7 @@ select = [
     "B", # bugbear: security warnings
     "BLE", # blind exceptions
     "C4", # flake8-comprehensions
-    "C901", # McCabe complexity
+    "C90", # McCabe complexity
     "D", # pydocstyle
     "DJ", # flake8-django
     "E", # pycodestylex

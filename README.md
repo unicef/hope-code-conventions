@@ -10,6 +10,6 @@ In your `pyproject.toml` put this:
 
         [tool.nitpick]
         style = [
-            "github://unicef/hope-code-conventions@main/django.toml"
+            "github://unicef/hope-code-conventions@main/django/django.toml"
         ]
         cache = "1 day"
