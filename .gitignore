@@ -1,0 +1,7 @@
+.*
+~*
+tests/**
+
+!.gitignore
+pyproject.toml
+ruff.toml

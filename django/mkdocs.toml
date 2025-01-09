@@ -1,0 +1,16 @@
+#
+# mkdocs.yaml
+#
+["mkdocs.yaml"]
+copyright = "Copyright &copy; 2020-2024 UNICEF."
+site_author = "HOPE Team"
+markdown_extensions = ["admonition", "ymdownx.magiclink", "pymdownx.superfences"]
+#["mkdocs.yaml"."markdown_extensions"."markdown_extensions"]
+#custom_fences = ["name"]
+#  - admonition
+#  - pymdownx.magiclink
+#  - pymdownx.superfences:
+#      custom_fences:
+#        - name: mermaid
+#          class: mermaid
+#          format: !!python/name:pymdownx.superfences.fence_code_format
