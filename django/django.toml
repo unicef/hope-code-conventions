@@ -5,11 +5,5 @@ include = ["ruff", "mkdocs", "pre-commit"]
 #".editorconfig" = ""
 #".pre-commit-config.yaml" = "Create the file with the contents below, then run 'pre-commit install'"
 
-#
-# pyproject.toml
-#
-["pyproject.toml".tool.black]
-line-length = 120
-
 ["pyproject.toml".uv]
 package = true
