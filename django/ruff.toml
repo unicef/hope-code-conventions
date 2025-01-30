@@ -7,6 +7,16 @@ line-length = 120
 
 ["ruff.toml".isort]
 case-sensitive = true
+force-wrap-aliases = true
+combine-as-imports = true
+extra-standard-library = ["path"]
+known-third-party = ['django']
+known-first-party = ['hope_*']
+# known-local-folder = [""]
+no-sections = false
+lines-after-imports = 1
+relative-imports-order = "furthest-to-closest"
+section-order = ["future", "standard-library", "third-party", "first-party",  "local-folder",]
 
 ["ruff.toml".lint]
 # "A", ## prevent using keywords that clobber python builtins
